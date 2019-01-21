@@ -12,7 +12,7 @@ class App extends Component {
     };
   }
   guessNumber(num) {
-    //if this.state.rightNumber is the same as num then set this.state.correct to true otherwise its false
+   
 
     this.setState({ correct: this.state.rightNumber === num });
   }
